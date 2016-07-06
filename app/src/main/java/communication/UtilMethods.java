@@ -10,6 +10,8 @@ import java.util.Date;
 import java.util.List;
 
 import communication.entities.*;
+import communication.ThreadManager;
+import communication.Config;
 /**
  * 为外部提供接收数据与发送数据的API
  */
