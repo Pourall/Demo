@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 阅读情况Java类
  */
-public class Read_Status {
+public class ReadStatus {
 
     private String sid;
     private String nid;

@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 为外部提供接收数据与发送数据的API
  */
-public class Util_Method {
+public class UtilMethods {
 
     /**
      * handleMessage方法将会收到两个参数，arg1将是HTTP状态码，
