@@ -13,7 +13,7 @@ import java.net.URL;
 /**
  * 与服务器通信的线程
  */
-public class HttpTread implements Runnable{
+public class HttpThread implements Runnable{
 
     private String url;
     private String method;

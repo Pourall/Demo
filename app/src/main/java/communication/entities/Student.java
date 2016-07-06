@@ -1,4 +1,4 @@
-package communication;
+package communication.entities;
 
 import java.util.HashMap;
 import java.util.Map;

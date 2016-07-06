@@ -9,10 +9,13 @@ import org.json.JSONObject;
 import java.util.Date;
 import java.util.List;
 
+import communication.entities.*;
+import communication.ThreadManager;
+import communication.Config;
 /**
  * 为外部提供接收数据与发送数据的API
  */
-public class Util_Method {
+public class UtilMethods {
 
     /**
      * handleMessage方法将会收到两个参数，arg1将是HTTP状态码，
