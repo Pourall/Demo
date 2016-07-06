@@ -9,6 +9,7 @@ import org.json.JSONObject;
 import java.util.Date;
 import java.util.List;
 
+import communication.entities.*;
 /**
  * 为外部提供接收数据与发送数据的API
  */
