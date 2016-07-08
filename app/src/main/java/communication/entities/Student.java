@@ -14,7 +14,6 @@ public class Student {
 
     private String character;
 
-    private String password;
     /*
     private volatile static Student student = null;
     private Student(){}
@@ -53,20 +52,11 @@ public class Student {
         this.character = character;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
     public Map getMap(){
         Map<String,Object> map =new HashMap<String,Object>();
         map.put("id",id);
         map.put("name",name);
         map.put("character",character);
-        map.put("password",password);
         return map;
     }
 

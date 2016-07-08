@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import communication.Notification;
-import communication.Util_Method;
+import communication.entities.Notification;
+import communication.UtilMethods;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 notification.setPubliishDate(new Date());
                 notification.setSender("dddd");
                 notification.setReceivers(list);
-                System.out.println(Util_Method.toJSON(notification));
+                System.out.println(UtilMethods.toJSON(notification));
             }
         });
 
