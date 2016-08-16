@@ -7,11 +7,14 @@ public class Config {
     /**
      * 服务器域名地址
      */
-    public static final String SERVER_ADDR = "";
-
+    public static final String SERVER_ADDR = "http://zumsite.cn:7000/";
     /**
-     *  学生id
+     *登陆服务器用户名
      * */
-    public static final String SID= "";
+     public static final String SERVER_USER = "2014220101001";
+    /**
+     *登陆服务器密码
+     * */
+    public static  final String SERVER_PASSWORD = "classnotifyapp";
 
 }

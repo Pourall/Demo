@@ -1,20 +1,12 @@
 package communication;
 
 import android.os.Handler;
-import android.util.Log;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.Date;
-import java.util.List;
-
 import communication.entities.*;
-import communication.ThreadManager;
-import communication.Config;
+
 /**
  * 为外部提供接收数据与发送数据的API
  */
+
 public class UtilMethods {
 
     /**
@@ -33,7 +25,7 @@ public class UtilMethods {
      * 获取所有通知,通知的反馈信息将在主线程中的handler的handle message方法中得到;
      */
     public static void get_all_notification(Handler handler){
-        ThreadManager.start(Config.SERVER_ADDR+"/users/"+Config.SID+"/notification/","GET",null,handler);
+        ThreadManager.start(Config.SERVER_ADDR+"users/"+"2014220101001"+"/notifications/","GET",null,handler);
     }
 
 }

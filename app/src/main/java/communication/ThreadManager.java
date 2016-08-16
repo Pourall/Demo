@@ -7,7 +7,7 @@ import org.json.JSONObject;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import communication.HttpTread; //still need to import even in the same package
+import communication.HttpThread; //still need to import even in the same package
 
 /**
  * 管理负责通信的线程
